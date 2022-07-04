@@ -1,0 +1,60 @@
+
+*{
+    margin: 0vh;
+    padding: 0vh;
+}
+.container{
+    height: 100%;
+    width: 100%;
+  }
+  .button{
+    
+    margin: 1vh;
+    padding:7vh;
+    color:red;
+    
+    border-color:#0a0a0a;
+    border-radius:10vh;
+    
+  
+    
+  }
+  .container{
+    display: flex;
+      background-color: #919191;
+      flex-direction: column;
+    margin: auto;
+      width: 40vw;
+      height: 100vh;
+
+      
+    
+    
+  }
+  .input{
+      margin: auto;
+      display:flex;
+     width:33vw;
+     height: 5vh;
+
+    
+  }
+  .row{
+    margin: auto;
+    justify-content:center;
+  }
+  .container h1{
+       margin: auto;
+
+  }
+  .button:hover{
+      border-color: blue;
+      /* border-width: 1vh; */
+
+
+  }
+  .input:hover{
+      border-color: blue;
+      /* border-width: 1vh; */
+
+  }
